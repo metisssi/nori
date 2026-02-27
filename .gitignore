@@ -1,0 +1,20 @@
+# Зависимости (игнорируем во всех вложенных папках)
+**/node_modules/
+
+# Секретные файлы с ключами и паролями (очень важно!)
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+
+# Папки сборки фронтенда
+nori-restaurant/dist/
+nori-restaurant/build/
+
+# Логи ошибок
+*.log
+npm-debug.log*
+
+# Специфические файлы ОС
+.DS_Store
+Thumbs.db
